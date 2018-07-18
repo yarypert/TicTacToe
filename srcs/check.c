@@ -1,4 +1,4 @@
-#include "./tictactoe.h"
+#include "../includes/tictactoe.h"
 
 int		cmp(char a, char b, char c)
 {

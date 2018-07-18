@@ -1,8 +1,8 @@
 NAME = TicTacToe
 
-SRC = ./srcs/check.c ./srcs/init_tab.c ./srcs/main.c ./srcs/play.c
+SRC = ./srcs/check.c ./srcs/init_tab.c ./srcs/main.c ./srcs/play.c ./srcs/ai_player.c
 
-OBJ = ./check.o ./init_tab.o ./main.o ./play.o
+OBJ = ./check.o ./init_tab.o ./main.o ./play.o ./ai_player.o
 
 HEADER = ./
 

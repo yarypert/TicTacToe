@@ -1,4 +1,4 @@
-#include "./tictactoe.h"
+#include "../includes/tictactoe.h"
 
 int		select_player(int error)
 {
@@ -7,7 +7,6 @@ int		select_player(int error)
 	char input;
 	int ch;
 	printf("%s\n", "Do you want to play first? Y / N ");
-	printf("%s\n", "If you type multiple characters only the first one will be used.");
 	scanf("%c", &input);
 	while ((ch = getchar()) != '\n' && ch != EOF);
 	if(input == 'y' || input == 'Y')
