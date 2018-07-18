@@ -14,6 +14,7 @@ int		who_win(char c)
 		return(2);
 	else if (c == 'O')
 		return(1);
+	return(0);
 }
 
 int		checkwinner(char *tab)

@@ -15,6 +15,7 @@ int		select_player(int error)
 		return(2);
 	else
 		select_player(1);
+	return(0);
 }
 
 void	print_map(char *p)

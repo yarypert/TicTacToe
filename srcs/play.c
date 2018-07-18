@@ -29,6 +29,7 @@ char	*play_you(char *tab,char c)
 	}
 	else
 		play_you(tab, c);
+	return (tab);
 }
 
 
@@ -36,6 +37,7 @@ int		gameover(char *tab)
 {
 	if(!strchr(tab,' '))
 		return (1);
+	return(0);
 }
 
 void	play(void)

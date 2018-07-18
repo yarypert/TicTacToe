@@ -320,7 +320,9 @@ char *dumb_ai(char *tab, char c)
 				break;
 			}
 			else
+			{
 				;
+			}
 		}
 	}
 	return(tab);
